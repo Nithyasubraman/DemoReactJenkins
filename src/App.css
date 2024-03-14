@@ -1,38 +1,98 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.Form {
+  padding: 40px;
+  /* background-color: rgba(200, 205, 207, 0.792); */
+  background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);   
+  margin: auto;
+  margin-top: 100px;
+  width: 400px;
+  font-size: 18px;
+  border-radius: 10px;
+  /* box-shadow: 0px 0px 8px 5px rgba(0, 0, 0, .4); */
+  /* box-shadow: 0px 0px 12px 0.8px #3474dbb2; */
+  /* box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.15); */
+  box-shadow: 0px 0px 14px 0.3px #0e81ce96;
+  min-height: 100px;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .base-container 
+  {
+    /* height: 350px; */
+    /* background-color: rgba(200, 205, 207, 0.792); */
+    /* background-image: url('https://i.pinimg.com/736x/79/0d/ae/790daed2f2ce1f72c3ec1732ad4d668e.jpg'); */
+    /* background-image: url('https://png.pngtree.com/background/20210717/original/pngtree-intelligent-control-panel-science-fiction-aimed-at-big-data-technology-background-picture-image_1446733.jpg'); */
+    /* background-image: url('https://img.freepik.com/premium-photo/abstract-white-interior-future-with-neon-lighting-3d-illustration-rendering_689904-35070.jpg'); */
+    background-image: url('https://e1.pxfuel.com/desktop-wallpaper/975/55/desktop-wallpaper-login-page-login.jpg');
+    background-size: cover;
+    /* border-bottom: 50px;  */
   }
-  to {
-    transform: rotate(360deg);
+
+  img{
+    /* width: 300px;
+    height: 250px;
+    border: 1px solid black;
+    background-color: silver;
+    margin-right: 1em;
+    object-fit: none;
+    object-position: 10px; */
+    /* object-position: left top; */
   }
-}
+
+    
+  h1
+  {
+    text-align: center;
+    color: cornflowerblue;
+    /* margin-top: 15px; */
+    padding-top: 30px;
+    
+  }
+
+
+  input {
+         margin-top: 6px;
+          min-width: 22em;
+          height: 37px;
+          padding: 0px 10px;
+          font-size: 16px;
+          font-family: "Open Sans", sans-serif;
+          background-color: #f3f3f3;
+          border: 0;
+          border-radius: 10px;
+          margin-bottom: 31px;
+          transition: all 250ms ease-in-out;
+  }
+
+  .submit 
+  {
+    background-color: rgb(60, 60, 229);
+    cursor:pointer;
+    color: white;
+  }
+
+  button:hover
+  {
+    background-color: green;
+  }
+
+
+
+  /* &:hover {
+    background-color: #ffffff;
+    
+  } */
+
+  /* &:focus {
+    outline: none;
+    box-shadow: 0px 0px 12px 0.8px #3474dbb2;
+  } */
+
+
+
+  /* .base-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 35px 10px 14px 0.3px #0e81ce96;
+    } */
